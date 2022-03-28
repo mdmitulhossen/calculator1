@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.result{
+    width: 50%;
+    height: 100px;
+    background-color: aquamarine;
+}
+.container  {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+.container div{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
